@@ -17,7 +17,7 @@ import com.json.utils.Constant;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements OnWeatherServiceListener{
+public class WeatherActivity extends AppCompatActivity implements OnWeatherServiceListener{
 
     private ProgressDialog progressBar;
     private ListView listView;
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements OnWeatherServiceL
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_weather);
         listView = (ListView)findViewById(R.id.lv_weather);
         progressBar = new ProgressDialog(this);
         progressBar.setCancelable(true);

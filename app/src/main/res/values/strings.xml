@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">JSONParsing</string>
+    <string name="btn_weather">Load Weather Data</string>
 </resources>
