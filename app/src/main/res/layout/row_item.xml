@@ -4,21 +4,26 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@color/colorBG"
     android:orientation="vertical">
 
     <TextView
         android:id="@+id/tv_max"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:textColor="@color/colorWhite"
+        android:layout_marginLeft="@dimen/common_dimen10"
+        android:layout_marginRight="@dimen/common_dimen10"
+        android:layout_marginTop="@dimen/common_dimen5"
+        android:textColor="@color/colorRow"
         />
     <TextView
         android:id="@+id/tv_min"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:textColor="@color/colorWhite"
+        android:layout_marginLeft="@dimen/common_dimen10"
+        android:layout_marginRight="@dimen/common_dimen10"
+        android:layout_marginTop="@dimen/common_dimen5"
+        android:layout_marginBottom="@dimen/common_dimen5"
+        android:textColor="@color/colorRow"
         />
 </LinearLayout>

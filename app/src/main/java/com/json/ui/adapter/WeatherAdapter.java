@@ -57,8 +57,8 @@ public class WeatherAdapter extends BaseAdapter {
             holder = (ViewHolder) convertView.getTag();
         }
         WeatherInfo info = weatherItems.get(position);
-        holder.tvMax.setText(info.getMax());
-        holder.tvMin.setText(info.getMin());
+        holder.tvMax.setText("Maximum Temp : "+info.getMax());
+        holder.tvMin.setText("Minimum Temp : "+info.getMin());
         return convertView;
     }
 
